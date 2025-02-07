@@ -47,4 +47,4 @@ router.post("/login", async (req, res, next) => {
     }
 });
 
-module.exports = { authRoutes: router };
+module.exports = router;  // ✅ Correct Export

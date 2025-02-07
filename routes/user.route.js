@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const userModel = require("../models/user.model");
 const applicationModel = require("../models/application.model");
-const { authMiddleware } = require("../middlewares/auth.middleware");
+const authMiddleware = require("../middlewares/auth.middleware");  // ✅ Fix Import
 // get id from token
 // get user from that id 
 
